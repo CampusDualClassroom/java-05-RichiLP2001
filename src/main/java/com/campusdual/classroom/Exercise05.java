@@ -31,10 +31,10 @@ public class Exercise05 {
     // Si es múltiplo, tiene que devolver el siguiente mensaje: X es múltiplo de Y
     // Si no es múltiplo, tiene que devolver el siguiente mensaje: X no es múltiplo de Y
     public static void checkMultiply(int n1, int n2) {
-    if (n2 % n1 ==0){
-        System.out.println("n1 multiply of n2");
+    if (n1 % n2 ==0){
+        System.out.println(n2+" es múltiplo de "+n1);
     }else {
-        System.out.println(" n1 not multiply of n2");
+        System.out.println(n2+" no es múltiplo de "+n1);
     }
     }
 
@@ -42,11 +42,11 @@ public class Exercise05 {
     // Si es negativo, tiene que devolver el siguiente mensaje: X es negativo.
     // Si es positivo o cero, tiene que devolver el siguiente mensaje: X es positivo.
     public static void checkPositiveNegative(int num) {
-        // main --> int num= cualquiera.
-        if (num>=0){
-            System.out.println(num+" es positivo");
+
+        if (num<0){
+            System.out.println(num+" es negativo.");
         }else{
-            System.out.println(num+" es negativo");
+            System.out.println(num+" es positivo.");
         }
         
     }
